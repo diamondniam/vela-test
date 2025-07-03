@@ -1,0 +1,141 @@
+[
+  {
+    "id": "discounts",
+    "title": "Акции",
+    "icon": "Flame",
+    "subMenu": [
+      {
+        "id": "trade",
+        "title": "Торговые мероприятия"
+      },
+      {
+        "id": "exhibition",
+        "title": "Выставочные мероприятия"
+      },
+      {
+        "id": "gala",
+        "title": "Гала-вечера"
+      },
+      {
+        "id": "award",
+        "title": "Церемонии награждения"
+      },
+      {
+        "id": "fashion",
+        "title": "Модные показы"
+      },
+      {
+        "id": "charity",
+        "title": "Благотворительные мероприятия"
+      }
+    ]
+  },
+  {
+    "id": "hot",
+    "title": "Горячее предложение",
+    "icon": "Lightning",
+    "subMenu": [
+      {
+        "id": "workshop",
+        "title": "Семинары"
+      },
+      {
+        "id": "conference",
+        "title": "Конференции"
+      },
+      {
+        "id": "expo",
+        "title": "Выставки"
+      },
+      {
+        "id": "festival",
+        "title": "Фестивали"
+      },
+      {
+        "id": "tournament",
+        "title": "Турниры"
+      },
+      {
+        "id": "concert",
+        "title": "Концерты"
+      },
+      {
+        "id": "show",
+        "title": "Шоу"
+      },
+      {
+        "id": "fair",
+        "title": "Ярмарки"
+      },
+      {
+        "id": "auction",
+        "title": "Аукционы"
+      },
+      {
+        "id": "meeting",
+        "title": "Встречи"
+      }
+    ]
+  },
+  {
+    "id": "gift",
+    "title": "Подарки",
+    "icon": "ChestBlue",
+    "subMenu": [
+      {
+        "id": "game",
+        "title": "Игровые акции"
+      },
+      {
+        "id": "summer",
+        "title": "Летние акции"
+      },
+      {
+        "id": "winter",
+        "title": "Зимние акции"
+      },
+      {
+        "id": "other",
+        "title": "Другие акции"
+      }
+    ]
+  },
+  {
+    "id": "events",
+    "title": "События",
+    "icon": "Quest",
+    "subMenu": [
+      {
+        "id": "igromir",
+        "title": "Игромир"
+      },
+      {
+        "id": "event",
+        "title": "Событие"
+      },
+      {
+        "id": "courses",
+        "title": "Мастер-классы"
+      }
+    ]
+  },
+  {
+    "id": "brands",
+    "title": "Наши бренды",
+    "icon": "Monster",
+    "subMenu": [
+      {
+        "id": "apple",
+        "title": "Apple"
+      },
+      {
+        "id": "samsung",
+        "title": "Samsung"
+      },
+      {
+        "id": "huawei",
+        "title": "Huawei"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+.header__services__button {
+  @include button--gray;
+}
+
+.header__services__assembly-button {
+  @include button--gray($color: $primary);
+  height: 45px;
+  gap: $gap-xs;
+  color: $primary;
+
+  &__plus-icon {
+    @include plus-icon(15px, 1px, $primary);
+  }
+}

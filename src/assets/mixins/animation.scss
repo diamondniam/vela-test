@@ -1,0 +1,61 @@
+@mixin transition($properties: all, $duration: 0.1s, $ease: ease-in-out) {
+  transition: $properties $duration $ease;
+}
+
+@mixin hover__brightness($value: 0.9) {
+  @include transition(filter);
+
+  &:hover {
+    filter: brightness($value);
+  }
+
+  &:active {
+    filter: brightness($value - 0.05);
+  }
+
+  @include max-w('md') {
+    &:hover {
+      filter: none;
+    }
+
+    &:active {
+      filter: brightness($value - 0.05);
+    }
+  }
+}
+
+@mixin hover__to-color($color: $primary, $last-color: $foreground) {
+  @include transition(color);
+
+  &:hover {
+    color: $color !important;
+  }
+
+  @include max-w('md') {
+    &:hover {
+      color: $last-color;
+    }
+
+    &:active {
+      color: $color;
+    }
+  }
+}
+
+@mixin hover__to-opacity($opacity: 0.8, $last-opacity: 1) {
+  @include transition(opacity);
+
+  &:hover {
+    opacity: $opacity;
+  }
+
+  @include max-w('md') {
+    &:hover {
+      opacity: $last-opacity;
+    }
+
+    &:active {
+      opacity: $opacity;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+$breakpoints: (
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px,
+);
+
+$background: #ffffff;
+$background-secondary: #f4f4f4;
+$foreground: #343a3f;
+$foreground-secondary: #868686;
+$primary: #4888ff;
+$secondary: #672870;
+$primary-lighter: #79a8ff;
+$border: #d4d4d4;
+$gray: #989898;
+
+$rounded: 8px;
+$rounded-lg: 12px;
+$rounded-xl: 16px;
+
+$gap-xs: 8px;
+$gap-sm: 16px;
+$gap-md: 24px;
+$gap-lg: 32px;
+$gap-xl: 50px;

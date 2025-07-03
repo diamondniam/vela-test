@@ -1,0 +1,18 @@
+@import './_variables.scss';
+@import './mixins';
+@import './base.scss';
+@import './transitions';
+
+.diamondniam {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  top: 60%;
+  left: 60%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+
+  @include max-w('lg') {
+    width: 120px;
+  }
+}

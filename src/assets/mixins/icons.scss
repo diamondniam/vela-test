@@ -1,0 +1,29 @@
+@mixin plus-icon($size: 24px, $thickness: 3px, $color: $foreground) {
+  position: relative;
+  width: $size;
+  height: $size;
+  background-color: transparent;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    background-color: $color;
+  }
+
+  &::before {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: $thickness;
+    transform: translateY(-50%);
+  }
+
+  &::after {
+    left: 50%;
+    top: 0;
+    width: $thickness;
+    height: 100%;
+    transform: translateX(-50%);
+  }
+}

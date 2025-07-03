@@ -1,0 +1,29 @@
+$sizes: (
+  'xs': 12px,
+  'sm': 14px,
+  'normal': 16px,
+  'md': 18px,
+  'lg': 20px,
+  'xl': 30px,
+  '2xl': 40px,
+);
+
+$weights: (
+  'light': 300,
+  'normal': 400,
+  'medium': 500,
+  'bold': 700,
+);
+
+@mixin truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin text($size: 'normal', $weight: 'normal', $color: $foreground, $align: left) {
+  font-size: map-get($sizes, $size);
+  font-weight: map-get($weights, $weight);
+  color: $color;
+  text-align: $align;
+}

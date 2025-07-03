@@ -1,0 +1,55 @@
+@mixin button {
+  @include flex-center;
+  @include transition(color);
+  height: 50px;
+  padding: 0 20px;
+  border-radius: $rounded-lg;
+  font-size: map-get($sizes, 'normal');
+  text-align: center;
+  line-height: normal;
+
+  @include max-w('md') {
+    padding: 0 10px;
+    height: 45px;
+  }
+}
+
+@mixin button--primary {
+  @include button;
+  @include hover__brightness;
+  background: $primary;
+  color: $background;
+
+  & .image {
+    @include transition(color);
+    @include flex-center;
+    width: 20px;
+  }
+}
+
+@mixin button--gray($color: $foreground) {
+  @include button;
+  @include hover__brightness;
+  background: $background-secondary;
+  color: $color;
+
+  & .image {
+    @include transition(color);
+    @include flex-center;
+    width: 20px;
+  }
+
+  &:hover {
+    color: $primary;
+  }
+
+  @include max-w('md') {
+    &:hover {
+      color: $color;
+    }
+
+    &:active {
+      color: $primary;
+    }
+  }
+}

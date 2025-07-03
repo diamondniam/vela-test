@@ -1,0 +1,342 @@
+[
+  {
+    "id": "phonesAndGadgets",
+    "title": "Смартфоны и гаджеты",
+    "icon": "PhoneBlue",
+    "type": "button",
+    "subMenu": [
+      {
+        "id": "phones",
+        "title": "Смартфоны",
+        "subMenu": [
+          {
+            "id": "apple",
+            "title": "Apple",
+            "quantity": 2212,
+            "subMenu": []
+          },
+          {
+            "id": "samsung",
+            "title": "Samsung",
+            "quantity": 32,
+            "subMenu": []
+          },
+          {
+            "id": "huawei",
+            "title": "Huawei",
+            "quantity": 252,
+            "subMenu": []
+          }
+        ]
+      },
+      {
+        "id": "gadgets",
+        "title": "Гаджеты",
+        "subMenu": [
+          {
+            "id": "headphones",
+            "title": "Наушники",
+            "quantity": 321,
+            "subMenu": []
+          },
+          {
+            "id": "watches",
+            "title": "Часы",
+            "quantity": 32,
+            "subMenu": []
+          },
+          {
+            "id": "accessories",
+            "title": "Аксессуары",
+            "quantity": 521,
+            "subMenu": []
+          },
+          {
+            "id": "cases",
+            "title": "Кейсы",
+            "quantity": 21,
+            "subMenu": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "computers",
+    "title": "Ноутбуки и компьютеры",
+    "icon": "Laptop",
+    "type": "button",
+    "subMenu": [
+      {
+        "id": "laptops",
+        "title": "Ноутбуки",
+        "subMenu": [
+          {
+            "id": "art",
+            "title": "Для искусства",
+            "quantity": 259
+          },
+          {
+            "id": "design",
+            "title": "Для дизайна",
+            "quantity": 118
+          },
+          {
+            "id": "writing",
+            "title": "Для письма",
+            "quantity": 73
+          },
+          {
+            "id": "coding",
+            "title": "Для программирования",
+            "quantity": 492
+          },
+          {
+            "id": "marketing",
+            "title": "Для маркетинга",
+            "quantity": 219
+          },
+          {
+            "id": "finance",
+            "title": "Для финансов",
+            "quantity": 351
+          },
+          {
+            "id": "health",
+            "title": "Для здоровья",
+            "quantity": 187
+          },
+          {
+            "id": "beauty",
+            "title": "Для красоты",
+            "quantity": 426
+          },
+          {
+            "id": "food",
+            "title": "Для еды",
+            "quantity": 298
+          },
+          {
+            "id": "drinks",
+            "title": "Для напитков",
+            "quantity": 151
+          }
+        ]
+      },
+      {
+        "id": "computers",
+        "title": "Компьютеры",
+        "subMenu": [
+          {
+            "id": "home",
+            "title": "Для дома",
+            "quantity": 321
+          },
+          {
+            "id": "office",
+            "title": "Для офиса",
+            "quantity": 32
+          },
+          {
+            "id": "gaming",
+            "title": "Для игр",
+            "quantity": 521
+          },
+          {
+            "id": "education",
+            "title": "Для учебы",
+            "quantity": 187
+          },
+          {
+            "id": "creative",
+            "title": "Для творчества",
+            "quantity": 421
+          },
+          {
+            "id": "outdoor",
+            "title": "Для активного отдыха",
+            "quantity": 219
+          },
+          {
+            "id": "music",
+            "title": "Для музыки",
+            "quantity": 91
+          },
+          {
+            "id": "video",
+            "title": "Для видео",
+            "quantity": 375
+          },
+          {
+            "id": "photo",
+            "title": "Для фотографии",
+            "quantity": 213
+          },
+          {
+            "id": "travel",
+            "title": "Для путешествий",
+            "quantity": 148
+          },
+          {
+            "id": "fitness",
+            "title": "Для спорта",
+            "quantity": 292
+          },
+          {
+            "id": "business",
+            "title": "Для бизнеса",
+            "quantity": 475
+          },
+          {
+            "id": "entertainment",
+            "title": "Для развлечений",
+            "quantity": 631
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tv",
+    "title": "Телевизоры и цифровое ТВ",
+    "icon": "Monitor",
+    "type": "button",
+    "subMenu": [
+      {
+        "id": "televisions",
+        "title": "Телевизоры",
+        "subMenu": [
+          {
+            "id": "pets",
+            "title": "Для домашних животных",
+            "quantity": 275
+          },
+          {
+            "id": "toys",
+            "title": "Для игрушек",
+            "quantity": 193
+          },
+          {
+            "id": "baby",
+            "title": "Для детей",
+            "quantity": 421
+          },
+          {
+            "id": "furniture",
+            "title": "Для мебели",
+            "quantity": 118
+          },
+          {
+            "id": "decor",
+            "title": "Для интерьера",
+            "quantity": 262
+          },
+          {
+            "id": "garden",
+            "title": "Для сада",
+            "quantity": 351
+          },
+          {
+            "id": "tools",
+            "title": "Для инструментов",
+            "quantity": 492
+          },
+          {
+            "id": "electronics",
+            "title": "Для электроники",
+            "quantity": 219
+          },
+          {
+            "id": "books",
+            "title": "Для книг",
+            "quantity": 187
+          },
+          {
+            "id": "sports",
+            "title": "Для спорта",
+            "quantity": 298
+          }
+        ]
+      },
+      {
+        "id": "digital-tvs",
+        "title": "Цифровое ТВ",
+        "subMenu": [
+          {
+            "id": "automotive",
+            "title": "Для автомобилей",
+            "quantity": 421
+          },
+          {
+            "id": "motorcycle",
+            "title": "Для мотоциклов",
+            "quantity": 193
+          },
+          {
+            "id": "bicycle",
+            "title": "Для велосипедов",
+            "quantity": 275
+          },
+          {
+            "id": "boat",
+            "title": "Для лодок",
+            "quantity": 118
+          },
+          {
+            "id": "airplane",
+            "title": "Для самолетов",
+            "quantity": 262
+          },
+          {
+            "id": "train",
+            "title": "Для поездов",
+            "quantity": 351
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "audio",
+    "title": "Аудиотехника",
+    "icon": "Speaker",
+    "type": "button",
+    "subMenu": [
+      {
+        "id": "headphones",
+        "subMenu": [
+          {
+            "id": "headphones",
+            "title": "Наушники",
+            "quantity": 321,
+            "subMenu": []
+          },
+          {
+            "id": "speakers",
+            "title": "Спикеры",
+            "quantity": 32,
+            "subMenu": []
+          },
+          {
+            "id": "microphones",
+            "title": "Микрофоны",
+            "quantity": 521,
+            "subMenu": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "discount",
+    "title": "Акции",
+    "icon": "Flame",
+    "type": "link"
+  },
+  {
+    "id": "new",
+    "title": "Новинки",
+    "icon": "Lightning",
+    "type": "link"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "velo-test",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/",
+    "generate-icons": "node scripts/svg-to-vue.cjs && node scripts/generate-barrels.cjs components/icons"
+  },
+  "dependencies": {
+    "pinia": "^3.0.3",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "barrelsby": "^2.8.1",
+    "install": "^0.13.0",
+    "npm": "^11.4.2",
+    "prettier": "3.5.3",
+    "sass": "^1.89.2",
+    "vite": "^7.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  }
+}
