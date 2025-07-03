@@ -1,30 +1,19 @@
-# velo-test
+# HOME BANNER FOR STORE
 
-This template should help get you started developing with Vue 3 in Vite.
+# ABOUT
 
-## Recommended IDE Setup
+Project aims for scalability and reusability with custom animations, components, utils and BEM using.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# LIBRARIES
 
-## Customize configuration
+pinia (contexts for some complex components)
+scss (globally registered huge amount of mixins and variables which reuses through out the project)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+# CUSTOM UTILS
 
-## Project Setup
+useClick
+useResize (responsibility for complex components)
+useScreen (lock, unlock for sustainable lock functionality)
+useDebounce (for event using optimization)
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# velo-test
+Greatly structured and clean coded with BEM methodology.
