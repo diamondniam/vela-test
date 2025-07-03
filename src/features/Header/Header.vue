@@ -55,8 +55,6 @@ const otherServices = [Favorite, Compare, Cart]
 </template>
 
 <style lang="scss" scoped>
-@import './Services';
-
 .header {
   display: flex;
   flex-direction: column;

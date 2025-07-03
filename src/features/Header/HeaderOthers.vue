@@ -51,6 +51,8 @@ useClickOutside(headerOthersRef, (e) => {
 
   &__button__container {
     position: relative;
+    display: flex;
+    width: 100%;
 
     &__button {
       @include button--gray;

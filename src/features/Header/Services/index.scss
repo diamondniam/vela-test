@@ -8,7 +8,7 @@
   gap: $gap-xs;
   color: $primary;
 
-  &__plus-icon {
+  & .plus-icon {
     @include plus-icon(15px, 1px, $primary);
   }
 }

@@ -7,3 +7,7 @@ import { Shooter } from '@/components/Icons'
     <Shooter />
   </button>
 </template>
+
+<style scoped lang="scss">
+@import './index.scss';
+</style>

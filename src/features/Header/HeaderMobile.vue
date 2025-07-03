@@ -38,8 +38,6 @@ import HeaderMenuMobile from './HeaderMenuMobile/HeaderMenuMobile.vue'
 </template>
 
 <style lang="scss" scoped>
-@import './Services';
-
 .header-mobile {
   display: flex;
   flex-direction: column;

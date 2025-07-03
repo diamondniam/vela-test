@@ -7,3 +7,7 @@ import { Love } from '@/components/Icons'
     <Love />
   </button>
 </template>
+
+<style scoped lang="scss">
+@import './index.scss';
+</style>

@@ -11,6 +11,8 @@ import { ChestGray } from '@/components/Icons'
 </template>
 
 <style scoped lang="scss">
+@import './index.scss';
+
 .header__services__button {
   position: relative;
 
