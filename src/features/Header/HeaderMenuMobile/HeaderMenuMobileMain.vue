@@ -13,7 +13,7 @@ import {
   Speaker,
 } from '@/components/Icons'
 import menu from '@public/data/header-menu--mobile/menu.json'
-import { nextTick, ref, watch } from 'vue'
+import { nextTick, onMounted, ref, watch } from 'vue'
 import HeaderMenuMobileMainItem from './HeaderMenuMobileMainItem.vue'
 import { useHeaderMenuMobile } from './store'
 import HeaderMenuMobileMainItemHeader from './HeaderMenuMobileMainItemHeader.vue'
@@ -104,6 +104,17 @@ watch(
     })
   },
 )
+
+onMounted(() => {
+  const stepsElements = mainRef.value.querySelectorAll('.header-menu-mobile-main__step')
+
+  stepsElements.forEach((item, i) => {
+    item.style.height = 'auto'
+  })
+
+  headerMenuMobileStore.setSelection([])
+  headerMenuMobileStore.setStep(1)
+})
 </script>
 
 <template>

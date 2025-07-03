@@ -122,7 +122,7 @@ const info = [
     padding: 0 $gap-xs;
 
     &__item {
-      @include hover__to-color;
+      @include hover__to-color($color: $primary, $last-color: $foreground);
       border-bottom: 1px solid $background-secondary;
       padding: $gap-xs 0;
     }

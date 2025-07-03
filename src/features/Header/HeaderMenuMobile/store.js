@@ -18,6 +18,9 @@ export const useHeaderMenuMobile = defineStore('headerMenuMobile', {
     removeSelection(value) {
       this.selection = this.selection.filter((item) => item !== value)
     },
+    setStep(value) {
+      this.step = value
+    },
     increaseStep() {
       this.step++
     },

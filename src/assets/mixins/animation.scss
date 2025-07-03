@@ -28,7 +28,7 @@
   @include transition(color);
 
   &:hover {
-    color: $color !important;
+    color: $color;
   }
 
   @include max-w('md') {
