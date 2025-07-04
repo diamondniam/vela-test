@@ -2,6 +2,8 @@ body {
   min-height: 100vh;
   color: $foreground;
   background: $background;
+  max-width: 1400px;
+  margin: 0 auto;
   transition:
     color 0.5s,
     background-color 0.5s;
